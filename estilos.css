@@ -1,0 +1,197 @@
+@font-face {
+    font-family: Pixellari;
+    src: url(font/Pixellari.ttf);
+}
+
+html{
+    height: 100%;
+}
+
+body, ul, li, p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.2rem;
+    font-family: Pixellari;
+}
+
+#vidDesc{
+    padding-bottom: 0px;
+}
+
+#vidDescTitle{
+    font-size: 32px;
+    padding-bottom: 0px;
+}
+
+footer{
+
+    padding: 25px;
+    background-color: rgb(109,214,244);
+}
+
+.header a{
+    text-decoration: none;
+    font-size: 24px;
+    font-family: Pixellari;
+    color:rgb(2,2,2);
+}
+
+.header{
+    background-color: rgb(109,214,244);
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#menu a{
+    margin-right: 10px;
+}
+
+#menu ul{
+    margin-left: 18px;
+}
+
+#outerSearch{
+    background-color: white;
+    display: flex;
+    padding-left: 5px;
+    padding-top: 5px;
+    max-width: 220px;
+    min-width: 220px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+}
+#searchIcon img{
+    max-height: 25px;
+    max-width: 25px;
+}
+#searchText input{
+    background-color: none;
+    border: none;
+    max-width: 170px;
+    min-width: 170px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.mainBody{
+    overflow-wrap: break-word;
+    padding: 40px;
+    padding-top: 40px;
+    padding-bottom: 0px;
+    border: 20px solid transparent;
+    padding: 30px;
+}
+
+#mainBodyAlt{
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+
+h1, h2, h3, h4{
+    align-items: center;
+    text-align: left;
+    font-weight: bold;
+    font-family: Pixellari;
+    padding-top: 20px;
+}
+
+#extraSpace{
+    padding-top: 20px;
+}
+
+.socMed{
+    padding-bottom: 20px;
+}
+
+.socMed img{
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.mainBody p{
+    padding-bottom: 20px;
+    font-family: Pixellari;
+}
+
+.mainBody #imgCenter{
+    display: grid;
+    align-items: center;
+    justify-items:center
+}
+
+.mainBody #imgCenter img{
+    max-width: 100%;
+    padding-bottom: 20px;
+}
+
+.mainBody #imgProj{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.mainBody #imgProj img{
+    max-width: 100%;
+}
+
+.mainBody #imgProj p{
+    font-size: larger;
+}
+
+.mainBody select{
+    float: right;
+}
+
+#specPlus{
+    color: black;
+    font-size: 200%;
+}
+
+#buttonRight{
+    float: right;
+    justify-items: right;
+    border-radius: 5px;
+    background-color: rgb(82,82,82);
+    color: white;
+}
+
+#buttonRightDiv{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#cats{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: Pixellari;
+    font-size: 20px;
+}
+
+.spacer{
+    border:none;
+    border-top:4px dashed black;
+    width:100%;
+}
+
+.spacerB{
+    border:none;
+    border-top:2px solid black;
+    width:100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#folder{
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+}
+
+#gitRepos{
+    background-color: rgb(109,214,244);
+}
